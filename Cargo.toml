@@ -1,0 +1,12 @@
+[package]
+name = "rust_simulator"
+version = "0.0.1"
+authors = ["bill"]
+build = "build.rs"
+
+[lib]
+name = "simulator"
+path = "src/simulator/lib.rs"
+
+[dependencies]
+time = "0.1.12"
